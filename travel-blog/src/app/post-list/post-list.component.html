@@ -1,0 +1,6 @@
+<h2>List of post!!</h2>
+<app-post
+  *ngFor="let postItem of listOfPosts; let i = index"
+  [post]="postItem"
+  [index]="i"
+></app-post>
